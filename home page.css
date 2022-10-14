@@ -1,0 +1,290 @@
+a:hover{text-decoration:none}
+body{background-color:white}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*-----------------------------------  Menu bar  -----------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+
+#home_menu {
+	       list-style:none;
+		   margin:0;
+		   padding:0;
+		   background-color:#596275;
+		   color:white;
+		   font-size:20px;
+		   text-decoration:none
+	}
+#home_menu select option {
+	       list-style:none;
+		   margin:0;
+		   padding:0;
+		   background-color:#596275;
+		   color:white;
+		   font-size:20px;
+		   text-decoration:none;
+		   
+		   
+	}
+#home_menu select  {
+	       list-style:none;
+		   margin:0;
+		   padding:0;
+		   background-color:#596275;
+		   color:white;
+		   font-size:20px;
+		   text-decoration:none;
+		   border:none;
+	}
+
+
+#home_menu li{
+	       display: inline-block;
+	
+          }
+#home_menu li a{
+	       display:block;
+		   
+		   color:white
+		   }
+		  
+#home_menu ul :hover {background-color:#2C3A47;
+                      }  
+/*--------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+/*----------------------------------------Side bar and second row -----------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+#second_row ul li a{  
+      color:black;
+	  font-size:25px;
+	  
+
+}
+#second_row ul li{  
+      background-color:#c8d6e5;
+	  text-decoration:none
+}
+#second_row ul li a:hover{  
+      background-color:#dfe4ea;
+	  
+}
+#second{
+	 background-image:url(oo.jpg);
+	  background-size:cover;
+	 animation: slider 80s infinite linear;
+}
+@keyframes slider{
+	0%{background-image:url(oo.jpg);}
+	10%{background-image:url(try.jpg);}
+	20%{background-image:url(dv.jpg);}
+	30%{background-image:url(db.jpg);}
+	50%{background-image:url(dd.jpg);}
+	60%{background-image:url(df.jpg);}
+	70%{background-image:url(dg.jpg);}
+	80%{background-image:url(dt.jpg);}
+	90%{background-image:url(ty.jpg);}
+}
+
+#welcome{  
+      color:#f5f6fa;
+     
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------SErvise ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#service{
+	background-color:#f1f2f6;
+}
+#service button a{
+	color:white;
+}
+
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------python ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#python button a{
+	color:white;
+	
+}
+
+#python{background-image:url(pp.jpg);
+        background-size:cover;
+        color:white;
+        animation-name: python;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+        animation-direction: alternate;
+        animation-play-state: paused;
+     }
+#python:hover{
+	animation-play-state: running;
+}
+@keyframes python{
+	0%{border-radius: 0%;}
+	50%{border-radius: 30%;}
+	
+
+}
+ /*--------------------------------------------------------------------------------------------------*/  
+
+/*------------------------------------------DS ML DL ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#ml_ds_dl{
+	border: solid 4px green ;
+}
+ /*--------------------------------------------------------------------------------------------------*/  
+}
+
+/*------------------------------------------web development ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#web_last_button  {
+	color:white;
+	border:solid 3px white;
+	text-decoration: none;
+	box-shadow: 5px 5px 5px 5px white;
+	background-color: #1289A7;
+}
+
+#web_development_html{
+	background-color:red;
+}
+#web_development_css{
+	background-color:red;
+}
+#web_development_SASS{
+	background-color:red;
+}
+#web_development_bootstrap{
+	background-color:red;
+}
+#web_development_javascript{
+	background-color:red;
+}
+#web_development_react{
+	background-color:blue;
+}
+
+
+
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------data-science ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#data-science button a{
+	color:white;
+}
+#data-science{background-image:url(re.jpg);
+     background-size:cover;
+     color:white;
+      
+	
+}
+   
+
+
+
+  
+
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------machine learning ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#machine_learning button a{
+	color:white;
+}
+#machine_learning{
+background-image:url(yu.jpg);
+     background-size:cover;
+     color:white;
+   
+     
+}
+     
+	
+
+
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------Deep learning ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#deep_learning  button a{
+	color:white;
+}
+#deep_learning{
+	background-image:url(op.jpg);
+     background-size:cover;
+    
+     color:white;
+}
+
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------HTML ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#HTML button a{
+	color:white;
+	
+}
+#HTML{
+	background-color:#f1f2f6;
+        color:black;
+	
+}
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------CSS ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#css button a{
+	color:white;
+}
+#css{
+	background-image:url(try.jpg);
+     background-size:cover;
+     
+     color:white;
+}
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------SASS ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#SASS button a{
+	color:white;
+}
+#SASS{
+	background-image:url(try.jpg);
+     background-size:cover;
+     
+     color:white;
+}
+	
+
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------javascript ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#javascript button a{
+	color:white;
+}
+#javascript{
+	background-image:url(tw.jpg);
+     background-size:cover;
+     
+     color:white;
+}
+ /*--------------------------------------------------------------------------------------------------*/  
+/*------------------------------------------footer ------------------------------------------------*/
+ /*--------------------------------------------------------------------------------------------------*/ 
+#footer1 p a{
+	color:black;
+}
+#footer3 ul li a {
+	
+     color:black;
+}
+#footer1{
+	background-color:#ecf0f1;
+	border: solid 2px #2c2c54;
+
+}
