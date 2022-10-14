@@ -14,6 +14,8 @@ body{background-color:white}
 		   color:white;
 		   font-size:20px;
 		   text-decoration:none
+	           color:red;
+	
 	}
 #home_menu select option {
 	       list-style:none;
